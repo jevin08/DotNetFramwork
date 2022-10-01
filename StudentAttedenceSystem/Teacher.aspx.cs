@@ -11,7 +11,7 @@ namespace StudentAttedenceSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["username"]!="teacher" && Session["password"] != "Ce@1234567")
+            if (Session["teacher"] != "Teacher" || Session["password"] != "Ce@1234567")
             {
                 Response.Redirect("Login.aspx");
             }

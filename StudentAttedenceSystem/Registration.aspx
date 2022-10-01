@@ -27,6 +27,10 @@
         button:hover{
             background-color:aqua;
         }
+        .center{
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -93,15 +97,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>
+                    <td colspan="2" class="center">
                         <asp:Button ID="Button1" runat="server" Height="29px" Text="SignUp" Width="66px" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
-                    <td  colspan="2">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Login.aspx" style="text-align:center"> Go To Login Form </a>
-
+                    <td  colspan="2" class="center">
+                        <a href="Login.aspx" style="text-align:center"> Go To Login Form </a>
                     </td>
                 </tr>
             </table>

@@ -28,6 +28,9 @@
         .Button:hover{
             color:red;
         }
+        .center{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -52,8 +55,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2," >&nbsp;</td>
-                    <td>
+                    <td colspan="2" class="center">
                         <asp:Button  ID="LoginButton" runat="server" Height="29px" Text="LOGIN" Width="59px" OnClick="LoginButton_Click" />
                     </td>
                 </tr>
